@@ -1,7 +1,7 @@
-azul = #22BCE0
+azul = #40B3DF
 gris_oscuro = #444
 gris_texto = #7A7A7A
-naranja = #DD4F24
+naranja = #A8CB17
 
 @font-face {
 	font-family: 'iconos';
@@ -39,9 +39,9 @@ footer
 				content" - "
 				
 header
-	background gris_oscuro
+	background white
 	box-shadow 0 5px 0 rgba(0,0,0,0.2)
-	color white
+	color gris_oscuro
 	overflow hidden
 	padding 0.5em
 	position relative
@@ -66,9 +66,9 @@ header
 
 		.publicar
 			background naranja
-			color white
+			color azul
 			float right
-			margin -5px 1em 0 0
+			margin -5px -10px 0 0
 			padding 0.2em 0.5em
 			text-decoration none
 			font-size italic
@@ -169,7 +169,7 @@ nav
 					text-decoration none
 					&:after
 						font-family "iconos"
-						color #E0D561
+						color #D70060
 						content"\e601"
 						text-shadow 1px 1px 0px black 						
 				
@@ -232,5 +232,22 @@ nav
 .right
 	float right
 
+@media screen and (min-width: 768px)
+	header
+		.titular
+			.publicar
+				padding-left 3em
+				position relative
+				&:before
+					left 0px
+					font-size 2em
+					position absolute
+					top -10px
 
-
+	.posts
+		.post
+			width 48%
+			vertical-align top
+			display inline-block
+			&:nth-child(odd)
+				margin-right 2%
