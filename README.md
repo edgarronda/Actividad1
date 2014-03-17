@@ -1,7 +1,7 @@
-Actividad1
+Seguridad Diaria - Mobile
 ==========
 
-Random desing is a personal project, creating an mobile-first website
+This is a personal project, creating an mobile-first website
 for www.seguridaddiaria.com.
 I decided to do something about it this weekend.
 
