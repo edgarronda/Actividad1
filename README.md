@@ -1,19 +1,10 @@
-Seguridad Diaria - Mobile
-==========
+# Seguridad Diaria - Mobile
 
-This is a personal project, creating an mobile-first website
-for www.seguridaddiaria.com.
-I decided to do something about it this weekend.
+Creating an mobile-first website for www.seguridaddiaria.com.
 
-Notes
-========
-I used
--Normalize
--Stylus
--icomoon
--SublimeText2
+## Built With
 
-
-Licence
-=========
-Mit
+* [Normalize](https://necolas.github.io/normalize.css/) - CSS Base.
+* [Stylus](http://stylus-lang.com/) - CSS preprocessors.
+* [icomoon](https://icomoon.io/) - Icon Font.
+* [Cloudflare](https://www.cloudflare.com/) - Security.
